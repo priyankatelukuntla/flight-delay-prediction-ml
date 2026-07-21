@@ -1,0 +1,19 @@
+# Dataset
+data/raw/
+*.xls
+*.xlsx
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env
+
+# Saved models
+*.pkl
