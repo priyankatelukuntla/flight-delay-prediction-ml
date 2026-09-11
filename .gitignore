@@ -1,19 +1,28 @@
-# Dataset
-data/raw/
-*.xls
-*.xlsx
-*.csv
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Python
-__pycache__/
-*.pyc
+# IDE
+.vscode/
+.idea/
 
-# Virtual environment
-venv/
-.env
+# OS
+.DS_Store
+Thumbs.db
 
-# Saved models
-*.pkl
+# Data
+data/
+*.csv
+*.xlsx
+*.parquet
+
+# Temporary files
+*.log
