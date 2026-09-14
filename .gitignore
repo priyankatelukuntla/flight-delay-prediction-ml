@@ -26,3 +26,7 @@ data/
 
 # Temporary files
 *.log
+
+# Allow airport-state mapping required by the Streamlit app
+!data/
+!data/airport_state_mapping.csv
